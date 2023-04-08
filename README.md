@@ -2,11 +2,13 @@
 
 ## About the project -
 
-This project aims to create a web application that replicates the functionality and design of the popular web-based front-end development environment, CodePen.
+- This project involves building a web application similar to CodePen using the ReactJS library for building user interfaces and the CodeMirror library for the code editor functionality.
 
-CodePen is an online community for front-end web developers to write, share, and test their code in a live environment. A CodePen clone project would typically involve building a similar web application that allows users to write HTML, CSS, and JavaScript code in a web-based editor, preview their code in real-time, and share their work with others.
+- The project would involve creating a responsive user interface using ReactJS that allows users to easily navigate through the site and manage their code snippets. The CodeMirror library would be used to provide a code editor with syntax highlighting, and other advanced features.
 
-The project would involve creating a responsive user interface that allows users to easily navigate through the site and manage their
+- The application would allow users to create and share HTML, CSS, and JavaScript code snippets, and see the results in real-time. 
+
+- This project would involve integrating ReactJS and CodeMirror to create a full-featured web-based front-end development environment similar to CodePen.
 
 ## Live project link -
 
