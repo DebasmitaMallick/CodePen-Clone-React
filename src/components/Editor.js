@@ -17,7 +17,13 @@ const Editor = (props) => {
   } = props;
   const [open, setOpen] = useState(true);
 
-  const handleChange = (editor, data, value) => {
+  /**
+   * calls the onChange prop with the updated value, which will update the value of the ControlledEditor and trigger a re-render.
+   * @param {*} editor CodeMirror instance
+   * @param {*} data object that contains information about the change that was made to the editor's content
+   * @param {*} value new value of the editor's content after the change has been made
+   */
+  const handleChange = (editor, data, value) => { 
     onChange(value);
   }
 
@@ -35,8 +41,9 @@ const Editor = (props) => {
           />
         </button>
       </div>
+      {/* code editor */}
       <ControlledEditor 
-        onBeforeChange={handleChange}
+        onBeforeChange={handleChange} //called before the editor's value is changed
         value={value}
         className='code-mirror-wrapper'
         options={{
